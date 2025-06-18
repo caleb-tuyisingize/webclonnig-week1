@@ -178,7 +178,7 @@ header .header-lists ul{
     bottom: 0;
 }
 .card h5{
-    padding-top: 125%;
+    padding-top: 73%;
     padding-left: 10px;
     color: #fff;
     font-weight: 900;
@@ -232,11 +232,63 @@ header .header-lists ul{
     width: 120px;
 }
 .imagingo{   
-    height: 350px;
+    height: 400px;
     /* background-color: tomato; */
     /* padding: 16px; */
     color: rgb(7, 0, 40);
     font-size:22px ;
     width: 91%;
     overflow: hidden;
+}
+.hollidays-cards{
+    /* background-color: tomato; */
+    /* padding: 16px; */
+    color: rgb(7, 0, 40);
+    font-size:22px ;
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    overflow: hidden;
+}
+.hollidays{
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 40px;
+    zoom: 100%;
+    background-blend-mode: darken; 
+}
+.holliday-card{
+    width: 49%;
+    color: rgb(7, 0, 40);
+    font-size: 16px;
+}
+.holliday-card img{
+    width: 100%;
+    border-radius: 16px;
+    height: 330px;
+}
+.cardi{
+    width: 300px;
+}
+
+.cardin h5{
+    padding-top: 93%;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardin{
+    width: 400px;
+    height: 300px;
+    /* min-height: 500px; */
+    background: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/408000/408465-Constance.jpg")no-repeat;
+    border-radius: 20px;
+    background-size: cover;
+    bottom: 0;
 }
