@@ -58,7 +58,9 @@ header .header-lists ul{
     color: #fff;
     width: 80%;
     padding: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 0;
 }
 .search-box{
     color: black;
@@ -67,4 +69,11 @@ header .header-lists ul{
     display: flex;
     padding: 12px;
     justify-content: space-between;
+   border-radius: 12px;
+   margin-top: 20px;
+}
+.going{
+    display: flex;
+    color: rgb(32, 32, 32);
+    font-size: 22px;
 }
