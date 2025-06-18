@@ -164,7 +164,9 @@ header .header-lists ul{
     /* background-color: tomato; */
     /* padding: 16px; */
     color: rgb(7, 0, 40);
+    font-size:22px ;
     width: 91%;
+    overflow: visible;
 }
 .card{
     width: 400px;
@@ -184,7 +186,57 @@ header .header-lists ul{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .images-cards{
-    
+    margin-top: 22px;
     display: flex;
     gap: 14px;
+}
+.imaging p{
+    font-size: 18px;
+}
+.cardo{
+        width: 300px;
+    height: 300px;
+    /* min-height: 500px; */
+    border-radius: 20px;
+    background-size: cover;
+    bottom: 0;
+}
+.cardo img{
+        width: 300px;
+    height: 230px;
+    /* min-height: 500px; */
+    border-radius: 20px;
+    background-size: cover;
+    bottom: 0;
+}
+.rate{
+    background-color: rgb(2, 56, 2);
+    color: #fff;
+    padding: 6px;
+    zoom: 80%;
+    width: 25px;
+    border-radius: 6px;
+}
+.ads{
+    display: flex;
+    gap: 6px;
+}
+.ads h5{
+    display: flex;
+    gap: 6px;
+}
+.cardo h6{
+    padding: 2px;
+}
+.dedication{
+    width: 120px;
+}
+.imagingo{   
+    height: 350px;
+    /* background-color: tomato; */
+    /* padding: 16px; */
+    color: rgb(7, 0, 40);
+    font-size:22px ;
+    width: 91%;
+    overflow: hidden;
 }
