@@ -387,3 +387,40 @@ header .header-lists ul{
     font-size: 29px;
     padding: 30px;
 }
+.browning{
+    background-color:aliceblue;
+    padding: 36px;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    width: 93%;
+    color: rgb(7, 0, 40);
+    zoom: 100%;
+    border-radius: 30px;
+}
+.footer{
+    
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+
+}
+.browning center{
+    margin-top: 200px;
+}
+.browning hr{
+    width: 90%;
+}
+.browning img{
+    width: 12%;
+}
+.last-links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.last-links div{
+    gap: 200px;
+}
