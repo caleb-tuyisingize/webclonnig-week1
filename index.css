@@ -160,12 +160,31 @@ header .header-lists ul{
     border: none;
 }
 .imaging{
-    height: 300px;
-    background-color: tomato;
+    height: 350px;
+    /* background-color: tomato; */
+    /* padding: 16px; */
+    color: rgb(7, 0, 40);
+    width: 91%;
 }
 .card{
-    width: 200px;
-    max-height: 500px;
-    min-height: 500px;
-    background: url("https://mediaim.expedia.com/destination/1/2216fefdabd55c190d02ad347ff19da4.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium")no-repeat;
+    width: 400px;
+    height: 300px;
+    /* min-height: 500px; */
+    background: url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/408000/408465-Constance.jpg")no-repeat;
+    border-radius: 20px;
+    background-size: cover;
+    bottom: 0;
+}
+.card h5{
+    padding-top: 125%;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.images-cards{
+    
+    display: flex;
+    gap: 14px;
 }
