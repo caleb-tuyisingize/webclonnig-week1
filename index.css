@@ -367,3 +367,23 @@ header .header-lists ul{
     border: none;
     border-radius: 40px;
 }
+.brownk{
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    width: 94%;
+    color: rgb(7, 0, 40);
+    zoom: 100%;
+    border-radius: 40px;
+    background-blend-mode: darken;
+}
+.brownk h1{
+    font-size: 40px;
+}
+.brownk p{
+    font-size: 20px;
+}
+.destination{
+    font-size: 29px;
+    padding: 30px;
+}
