@@ -52,6 +52,9 @@ header .header-lists ul{
     height: 500px;
     background: url("https://forever.travel-assets.com/flex/flexmanager/images/2025/03/24/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png?impolicy=fcrop&w=1920&h=580&q=medium") no-repeat center center;
     background-size: cover;
+    width: 100%;
+    zoom: 100%;
+    background-blend-mode: darken;
     
 }
 .search-based{
@@ -81,6 +84,7 @@ header .header-lists ul{
     padding: 10px;
     width: 280px;
     height: 30px;
+    gap: 9px;
 }
 .text-data label{
     font-size: 13px;
@@ -106,4 +110,8 @@ header .header-lists ul{
     font-size: 16px;
     border: none;
     border-radius: 60px;
+}
+.going i{
+    font-size: 20px;
+    zoom: 150%;
 }
