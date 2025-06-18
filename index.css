@@ -295,7 +295,7 @@ header .header-lists ul{
 .statistics{
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 50px;
     width: 100%;
     padding: 40px;
     zoom: 100%;
@@ -307,17 +307,62 @@ header .header-lists ul{
     width: 91%;
     display: flex;
     justify-content: space-between;
-    height: 420px;
-    overflow: hidden;
 
 }
 .static-card{
     width: 49%;
     color: rgb(7, 0, 40);
     font-size: 16px;
+    padding: 20px;
 }
 .static-card img{
-    width: 100%;
+    width: 19%;
     border-radius: 16px;
-    height: 330px;
+    height: 37px;
+}
+
+.intro{
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 40px;
+    zoom: 100%;
+    background-blend-mode: darken; 
+}
+.brown{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    width: 94%;
+    zoom: 100%;
+    background-blend-mode: darken;
+    background: url("https://forever.travel-assets.com/flex/flexmanager/mediaasset/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh")no-repeat;
+}
+
+.brown-contents{
+    color: rgb(7, 0, 40);
+    background-color: #fff;
+    height: 60%;
+    margin-left: 40px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+.brown-contents h1{
+    font-size: 39px;
+    font-weight: 500;
+}
+.brown-contents button{
+    background-color: rgb(40, 84, 166);
+    color:#fff;
+    padding: 20px;
+    font-size: 24px;
+    zoom: 66%;
+    border: none;
+    border-radius: 40px;
 }
