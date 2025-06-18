@@ -13,7 +13,7 @@
         <div class="logo-side">
             <img src="https://www.fewo-direkt.de/_dms/header/logo.svg" alt="">
         </div>
-        <div class="header-lists">
+        <div class="header-lists" id="dropdownMenu">
             <ul>
                 <button class="app">Download the app &nbsp;&nbsp; <i class="fas fa-download"></i> </button>
                 <li>Travel Planner</li>
@@ -23,6 +23,9 @@
                 <li>Announce</li>
             </ul>
 
+        </div>
+        <div class="icon-menu" id="menuToggle">
+            <i class="fas fa-bars"></i>
         </div>
     </header>
 
@@ -74,11 +77,11 @@
             </div>
 
             
-            <div class="card">
+            <div class="card" id="tobe">
                 <h5>Title</h5>
             </div>
             
-            <div class="card">
+            <div class="card" id="tobe">
                 <h5>Title</h5>
             </div>
 <!--             
@@ -314,11 +317,11 @@ Save on your next vacation with these three discounts
                 <h5>Title</h5>
             </div>
             
-            <div class="cardin">
+            <div class="cardin" id="tobe">
                 <h5>Title</h5>
             </div>
             
-            <div class="cardin">
+            <div class="cardin" id="tobe">
                 <h5>Title</h5>
             </div>
             
@@ -472,4 +475,21 @@ Save on your next vacation with these three discounts
 </section>
 
 </body>
+
+<script>
+  const toggleButton = document.getElementById("menuToggle");
+  const dropdownMenu = document.getElementById("dropdownMenu");
+
+
+
+  toggleButton.addEventListener("click", function (event) {
+    dropdownMenu.classList.toggle("show");
+    event.stopPropagation();
+  });
+
+  // Close menu when clicking outside
+  window.addEventListener("click", function () {
+    dropdownMenu.classList.remove("show");
+  });
+</script>
 </html>
