@@ -292,3 +292,32 @@ header .header-lists ul{
     background-size: cover;
     bottom: 0;
 }
+.statistics{
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 40px;
+    zoom: 100%;
+    background-blend-mode: darken; 
+}
+.statics-cards{
+    color: rgb(7, 0, 40);
+    font-size:22px ;
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    overflow: hidden;
+
+}
+.static-card{
+    width: 49%;
+    color: rgb(7, 0, 40);
+    font-size: 16px;
+}
+.static-card img{
+    width: 100%;
+    border-radius: 16px;
+    height: 330px;
+}
